@@ -1,0 +1,31 @@
+{
+  "name": "mvvm",
+  "version": "1.0.0",
+  "description": "a simple mvvm program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --inline --hot --progress",
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
+    "watch": "webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxnsmile/mvvm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wxnsmile/mvvm/issues"
+  },
+  "homepage": "https://github.com/wxnsmile/mvvm#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "html-webpack-plugin": "^2.30.1",
+    "lodash": "^4.17.4",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}

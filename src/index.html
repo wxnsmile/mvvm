@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./bundle.js"></script>
+</head>
+<body>
+     <div id="app">  
+        <ol>
+            <!--<li>{{ name }}</li>
+            <li>姓名：{{name}}</li>-->
+            <li>年龄：<input type="text" v-model="age"> 输入的年龄为：{{age}}</li>
+            <li>身高：<span v-text="stature"></span>cm</li>
+            <li>属性：<span v-html="html"></span></li>
+            <li v-if="isHide">if指令</li>
+            <li v-show="isShow">show指令</li>
+            <li>秘密：<button v-on:click="clickBtn" v-bind:style="style">说出你的密码</button></li>
+        </ol>
+        <!--<p>{{getHelloWord}}</p>-->
+        <!--<button v-on:click="clickBtn">change model</button>-->
+     </div> 
+     <!--<script src="./bundle.js"></script>-->
+</body>
+</html>
+
